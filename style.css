@@ -1,1 +1,33 @@
 
+.top-bar {
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+.small-button {
+  font-size: 0.85em;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 2px;
+}
+
+.small-button:hover {
+  opacity: 1;
+}
+
+.fork-button {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #333;
+  padding: 8px 12px;
+  transition: 0.2s;
+}
+
+.fork-button:hover {
+  background: #333;
+  color: white;
+}
